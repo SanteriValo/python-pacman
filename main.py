@@ -2,7 +2,7 @@ import pygame
 import random
 import os
 
-class MoocMan:
+class PicMan:
     def __init__(self):
         pygame.init()
         self.screen_width = 720
@@ -188,5 +188,5 @@ class MoocMan:
                 self.show_end_screen()
         
 if __name__ == "__main__":
-    game = MoocMan()
+    game = PicMan()
     game.main_loop()
